@@ -7,11 +7,11 @@
     </div>
     <div class="navbar-default">
       <ul class="nav navbar-nav">
-        <li>
-          <a href="#" (click)="onSelect('recipe')">Recipes</a>
+        <li role="presentation" routerLinkActive="active"> 
+          <a href="#" [routerLink]="['/recipes']">Recipes</a>
         </li>
-        <li>
-          <a href="#" (click)="onSelect('shopping-list')">Shopping List</a>
+        <li role="presentation" routerLinkActive="active">
+          <a href="#" [routerLink]="['/shopping-list']">Shopping List</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -30,3 +30,6 @@
     </div>
   </div>
 </nav>
+<div style="margin-left: 20%">
+  <router-outlet></router-outlet>
+</div>
