@@ -8,10 +8,10 @@
     <div class="navbar-default">
       <ul class="nav navbar-nav">
         <li role="presentation" routerLinkActive="active"> 
-          <a href="#" [routerLink]="['/recipes']">Recipes</a>
+          <a [routerLink]="['/recipes']">Recipes</a>
         </li>
         <li role="presentation" routerLinkActive="active">
-          <a href="#" [routerLink]="['/shopping-list']">Shopping List</a>
+          <a [routerLink]="['/shopping-list']">Shopping List</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -19,10 +19,10 @@
            Manage <span class="caret"></span>
           <ul>
             <li>
-              <a href="#">Save Data</a>
+              <a style="cursor: pointer;">Save Data</a>
             </li>
             <li>
-              <a href="#">Fetch Data</a>
+              <a style="cursor: pointer;">Fetch Data</a>
             </li>
           </ul>
         </li>

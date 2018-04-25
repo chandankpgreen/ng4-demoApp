@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  feature: string;
-  showFeature(feature: string){
-     this.feature = feature
-  }
+  // title = 'app';
+  // feature: string;
+  // showFeature(feature: string){
+  //    this.feature = feature
+  // }
 }
